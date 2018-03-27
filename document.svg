@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="https://bladepaint.github.io/BladePaint/assets/style.css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+  preserveAspectRatio="xMidYMid meet"
+  viewBox="0 0 1 1"
+  width="1024"
+  overflow="visible">
+
+  <use href="#guide" visibility="visible"/>
+
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+<!-- DO NOT EDIT BELOW THIS LINE -->
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+
+  <def></def>
+  <style type="text/css">
+    /* <![CDATA[ */
+    .text {
+      font-family: Verdana;
+      font-size: 0.02pt;
+      transform: rotate(-90deg);
+    }
+    .guide {
+      fill: none;
+      stroke: black;
+      stroke-width: 0.004;
+      stroke-dasharray: 0.02, 0.02;
+    }
+    /* ]]> */
+  </style>
+  <symbol id="guide" overflow="visible">
+    <path class="guide" d="m0,0h9v1h-9zm-0.1,-0.3h9v1.6h-9zm-0.1,-0.2h9v2h-9z"/>
+    <path class="guide" transform="translate(2.52,0.15) rotate(-5.5)" d="m0,0 v0.1c -0.2 0.2 -0.2 0.2 -0.3 0.6 0 0 -1.6 0.3 -2.3 -0.1 l 0.1 -1.0 c 0.4 -0.04 0.8 -0.1 2.5 0.3 v0.1 z"/>
+    <text class="text" y="-0.15">Safe area (garenteed to show up)</text>
+    <text class="text" y="-0.25">Action-safe area (may get cropped)</text>
+    <text class="text" y="-0.05">Invisible area (unlikely to show up)</text>
+  </symbol>
+
+</svg>
